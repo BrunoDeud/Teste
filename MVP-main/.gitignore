@@ -1,0 +1,23 @@
+# Environment secrets
+/backend/.env
+/frontend/.env
+.env
+
+# PHP / Laravel dependencies and runtime files
+/backend/vendor/
+/backend/.phpunit.cache/
+/backend/bootstrap/cache/*.php
+/backend/storage/framework/cache/data/*
+!/backend/storage/framework/cache/data/.gitkeep
+/backend/storage/framework/sessions/*
+!/backend/storage/framework/sessions/.gitkeep
+/backend/storage/framework/views/*
+!/backend/storage/framework/views/.gitkeep
+/backend/storage/logs/*.log
+/backend/storage/app/private/*
+!/backend/storage/app/private/.gitkeep
+
+# Frontend dependencies and build output
+/frontend/node_modules/
+/frontend/dist/
+/frontend/.vite/
